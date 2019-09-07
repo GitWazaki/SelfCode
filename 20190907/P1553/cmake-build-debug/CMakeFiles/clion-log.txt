@@ -1,0 +1,4 @@
+E:\jetbrains\apps\CLion\ch-0\192.6262.62\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\SelfCode\20190907\c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/SelfCode/20190907/c/cmake-build-debug
