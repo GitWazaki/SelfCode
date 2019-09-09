@@ -1,0 +1,7 @@
+num1 = float(input())
+num2 = float(input())
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+print(num1/num2) if num2 != 0 else print("num2=0")
+print(num1//num2) if num2 != 0 else print("num2=0")
