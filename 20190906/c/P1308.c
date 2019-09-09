@@ -4,8 +4,8 @@
 
 int main(){
     char word[12];
-    char temp[50];
-    char pg[1000];
+    char temp[500];
+    char pg[2000000];
     int i=0,j=0,k=0;
     int num = 0,first=-1, count=0;
     scanf("%s ",word);
