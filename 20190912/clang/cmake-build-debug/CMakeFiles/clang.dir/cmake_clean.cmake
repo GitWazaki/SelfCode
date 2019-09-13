@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/clang.dir/main.cpp.obj"
+  "CMakeFiles/clang.dir/main.cpp.o"
   "clang.pdb"
-  "clang.exe"
-  "clang.exe.manifest"
-  "libclang.dll.a"
+  "clang"
 )
 
 # Per-language clean rules from dependency scanning.

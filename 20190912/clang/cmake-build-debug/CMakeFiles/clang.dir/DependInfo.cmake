@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/SelfCode/20190912/clang/main.cpp" "E:/SelfCode/20190912/clang/cmake-build-debug/CMakeFiles/clang.dir/main.cpp.obj"
+  "/tmp/tmp.rTBb0HzC65/main.cpp" "/tmp/tmp.rTBb0HzC65/cmake-build-debug/CMakeFiles/clang.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

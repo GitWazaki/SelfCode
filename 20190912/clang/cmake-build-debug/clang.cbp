@@ -4,88 +4,90 @@
 	<Project>
 		<Option title="clang"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="clang"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/SelfCode/20190912/clang/cmake-build-debug"/>
+				<Option working_dir="/tmp/tmp.rTBb0HzC65/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="clang">
-				<Option output="E:/SelfCode/20190912/clang/cmake-build-debug/clang.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/SelfCode/20190912/clang/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clang"/>
-					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="clang/fast">
-				<Option output="E:/SelfCode/20190912/clang/cmake-build-debug/clang.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/SelfCode/20190912/clang/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
-					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clang/fast"/>
-					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="E:/SelfCode/20190912/clang/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/SelfCode/20190912/clang/cmake-build-debug"/>
+				<Option working_dir="/tmp/tmp.rTBb0HzC65/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;E:/SelfCode/20190912/clang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clang">
+				<Option output="/tmp/tmp.rTBb0HzC65/cmake-build-debug/clang" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.rTBb0HzC65/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward"/>
+					<Add directory="/usr/include/clang/8.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-8/lib/clang/8.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 clang"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clang/fast">
+				<Option output="/tmp/tmp.rTBb0HzC65/cmake-build-debug/clang" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.rTBb0HzC65/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward"/>
+					<Add directory="/usr/include/clang/8.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-8/lib/clang/8.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 clang/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.rTBb0HzC65/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.rTBb0HzC65/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/SelfCode/20190912/clang/main.cpp">
+		<Unit filename="/tmp/tmp.rTBb0HzC65/main.cpp">
 			<Option target="clang"/>
 		</Unit>
-		<Unit filename="E:/SelfCode/20190912/clang/CMakeLists.txt">
+		<Unit filename="/tmp/tmp.rTBb0HzC65/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
